@@ -11,7 +11,6 @@ import 'package:restofood_api/core/services/auth_services.dart';
 import 'package:restofood_api/core/services/city_services.dart';
 
 import '../../core/models/city_model.dart';
-import '../../core/models/city_model.dart';
 import '../../core/utils/toast_utils.dart';
 import '../widgets/input_field.dart';
 import '../widgets/primary_button.dart';
@@ -64,7 +63,8 @@ class _RegisterBodyState extends State<RegisterBody> {
       && confirmPasswordController.text.isNotEmpty && emailController.text.isNotEmpty
       && namaController.text.isNotEmpty && nikController.text.isNotEmpty 
       && tanggalController.text.isNotEmpty && alamatController.text.isNotEmpty
-      && jenisKelaminController.text.isNotEmpty && kotaController.text.isNotEmpty
+      && jenisKelaminController.text.isNotEmpty 
+      && kotaController.text.isNotEmpty
       && image != null
     ) {
 

@@ -4,6 +4,7 @@ import 'package:restofood_api/ui/screens/home_screen.dart';
 import 'package:restofood_api/ui/screens/login_screen.dart';
 import 'package:restofood_api/ui/screens/register_screen.dart';
 
+import 'ui/screens/login_screen.dart';
 import 'ui/screens/profile_screen.dart';
 
 void main() => runApp(MyApp());
